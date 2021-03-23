@@ -1,0 +1,40 @@
+.WelcomeMessage{
+    color: black;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 45px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    
+    overflow: hidden;
+    
+}
+li{
+    border-right: 1px solid white;
+}
+
+
+li a{
+    float: left;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 14px 16px;
+    
+}
+
+li a:hover{
+    background-color: black;
+    color: white;
+}
+
+.active{
+    background-color:green;
+    color: white;
+}
